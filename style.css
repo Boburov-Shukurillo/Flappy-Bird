@@ -12,6 +12,6 @@ body {
 }
 
 canvas {
-  background-image: url(./flappybirdbg.png);
+  background-image: url(./img/flappybirdbg.png);
   border: 2px solid black;
 }
