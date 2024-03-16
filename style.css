@@ -12,6 +12,57 @@ body {
 }
 
 canvas {
+  width: 500px;
+  height: 640px;
   background-image: url(./img/flappybirdbg.png);
   border: 2px solid black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  width: 500px;
+  height: 640px;
+  position: relative;
+}
+
+.score {
+  position: absolute;
+  color: white;
+  top: 20px;
+  left: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.gameOver {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  justify-content: space-between;
+  text-align: center;
+  width: 400px;
+  height: 200px;
+  text-align: center;
+  bottom: 30%;
+  border-radius: 20px;
+  position: absolute;
+  border: 3px solid wheat;
+  background-color: rgb(255, 183, 0);
+}
+
+.gameOver h1 {
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 50px;
+}
+
+.gameOver button {
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 40px;
+  border-radius: 8px;
+  padding: 10px 40px;
 }
